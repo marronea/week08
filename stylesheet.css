@@ -14,5 +14,14 @@ body{
 }
 .container {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: flex-end;
+}
+.item {
+    margin: 5px;
+}
+img {
+    width: 400px;
+    height: 300px;
 }
